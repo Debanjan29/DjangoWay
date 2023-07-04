@@ -1,8 +1,7 @@
 # Model Creation
 
 + There is only ONE static  &  templates folder in the dir where manage.py exists
-+ Create Models to have a Database which we can access using /admin
-+ 
++ Create Models (in models.py) to have a Database which we can access using '/admin'
 
 # setting.py
 ```
@@ -66,4 +65,12 @@ INSTALLED_APPS = [
 Now,Run the following
 ```python manage.py migrate```
 
-## The model/Database can be accessed from /admin now
+# Create SUPERUSER (To access /admin)
+```
+python manage.py createsuperuser
+```
++ Then fill the following questions
+```
+python manage.py runserver
+```
+## The model/Database can be accessed from '/admin' now
