@@ -57,21 +57,7 @@ INSTALLED_APPS = [
 ]
 
 ```
-# Go to setting.py 
 
-```
-INSTALLED_APPS = [
-    "django.contrib.admin",
-    "django.contrib.auth",
-    "django.contrib.contenttypes",
-    "django.contrib.sessions",
-    "django.contrib.messages",
-    "django.contrib.staticfiles",
-
-    "blog.apps.BlogConfig", #From apps.py we get 'BlogConfig'  ////////// Without changing this in INSTALLED_APPS , migrations wont be possible
-    # "shop.apps.ShopConfig"
-]
-```
 ### IMP to add in setting.py --> INSTALLED_APPS
 + {appname}.apps.{ClassName from apps.py} 
 ```
