@@ -1,8 +1,7 @@
 # DjangoWay
 
 + There is only ONE static  &  templates folder in the dir where manage.py exists
-+ Create Models to have a Database which we can access using /admin
-+ 
++ Create Models to have a Database which we can access using /admin 
 
 # setting.py
 ```
