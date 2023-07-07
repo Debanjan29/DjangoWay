@@ -45,7 +45,7 @@ from .models import Contact
 admin.site.register(Contact)
 ```
 
-> In settings.py we need to have :
+> In settings.py we need to have (Here, Name of the app is "blog"):
 ```
 INSTALLED_APPS = [
     "django.contrib.admin",
