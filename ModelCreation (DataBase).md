@@ -43,7 +43,10 @@ Now run the following in terminal to store the changes:
 from django.contrib import admin
 from .models import Contact
 admin.site.register(Contact)
+```
 
+> In settings.py we need to have :
+```
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
