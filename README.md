@@ -2,6 +2,15 @@
 
 + There is only ONE static  &  templates folder in the dir where manage.py exists
 + Create Models to have a Database which we can access using /admin 
++ To link CSS and JS in html ------>>>>
+### in setting.py
+Add ```STATICFILES_DIRS= (os.path.join(BASE_DIR,'static'),)``` <br>
+Keep the CSS & JS file in static folder <br>
+in the html file add ```{% load static %}```<br>
+and it with ```<link rel="stylesheet" href="{% static 'blog.css' %}">``` <br>
+
+
+![image](https://github.com/Debanjan29/DjangoWay/assets/97180277/58b8cf43-ac7f-4c5c-a61a-e354a03cb287)
 
 # setting.py
 ```
