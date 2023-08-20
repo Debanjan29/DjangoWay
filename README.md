@@ -1,3 +1,3 @@
 # DjangoWay
 + Welcome to your personalized Django learning repository! This repository is your dedicated space to revisit Django concepts, experiment with new ideas, and document your learning journey. Feel free to create separate folders for various topics, projects, or experiments. Whether it's a refresher after a break or an exploration of new features, this repository is here to support your learning adventure. While primarily designed for my use, if you stumble upon valuable insights, don't hesitate to contribute and share the knowledge :handshake:. Remember, this is our learning playground—no judgment, just growth. Enjoy the journey! 🌟 <br>
-+ This is a note-to-me kind of repo so the file structure may not be not top-notch.
+
